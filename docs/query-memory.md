@@ -8,19 +8,23 @@ nav_order: 4
 ### **POST** `https://api.sentech.ai/fields/:fieldId/memories/query`
 
 #### **Description**
+
 Queries stored memories within a specific memory field.
 
 #### **Headers**
+
 | Key           | Type   | Required | Description                |
 |--------------|--------|----------|----------------------------|
 | Authorization | String | Yes      | API key for authentication |
 
 #### **Path Parameters**
+
 | Parameter | Type   | Required | Description                  |
 |-----------|--------|----------|------------------------------|
 | fieldId   | String | Yes      | Unique ID of the memory field|
 
 #### **Request Body**
+
 ```json
 {
   "query": "Your search query",
@@ -29,6 +33,7 @@ Queries stored memories within a specific memory field.
 ```
 
 #### **Response**
+
 ```json
 {
   "results": [
