@@ -29,3 +29,4 @@ Sends messages to an AI model and retrieves a response.
   "presence_penalty": 0.7,
   "max_tokens": 150
 }
+```
