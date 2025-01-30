@@ -17,12 +17,12 @@ nav:
   - title: API Endpoints
     children:
       - title: Create Memory
-        url: /docs/create-memory
+        url: /create-memory
       - title: Query Memories
-        url: /docs/query-memory
+        url: /query-memory
       - title: Chat Completions
-        url: /docs/chat-completions
+        url: /chat-completions
       - title: Supported Models
-        url: /docs/supported-models
+        url: /supported-models
       - title: Create Memory Field
-        url: /docs/create-memory-field
+        url: /create-memory-field
