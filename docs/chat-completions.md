@@ -5,7 +5,7 @@ nav_order: 5
 
 # AI Chat Completion
 
-### **POST** `/v1/chat/completions`
+### **POST** `https://api.sentechl.ai/v1/chat/completions`
 
 #### **Description**
 Sends messages to an AI model and retrieves a response.
