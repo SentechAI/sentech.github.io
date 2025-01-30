@@ -1,5 +1,5 @@
-title: API Documentation
-description: API Documentation
+title: API Docs
+description: API Docs
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-remote-theme
@@ -9,7 +9,7 @@ plugins:
 just_the_docs:
   search_enabled: true
   navigation:
-    - title: API Documentation
+    - title: API Docs
       url: /
     - title: Create Memory
       url: /fields/:fieldId/memories
