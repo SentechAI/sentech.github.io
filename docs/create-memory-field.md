@@ -5,7 +5,7 @@ nav_order: 2
 
 # Create a Memory Field
 
-### **POST** `https://api.sentechl.ai/fields/create-memory-field`
+### **POST** `https://api.sentech.ai/fields/create-memory-field`
 
 #### **Description**
 Creates a new memory field for storing AI-generated memories.
