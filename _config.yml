@@ -1,6 +1,16 @@
-title: Sentech API
-description: API Documentation for Sentech API
-theme: minima
-show_excerpts: true
-header_pages:
-  - index.md
+title: EMFDash API
+description: API Documentation for EMFDash
+theme: just-the-docs
+
+# Enable the navigation sidebar
+just_the_docs:
+  search_enabled: true
+  navigation:
+    - title: API Documentation
+      url: /
+    - title: Create Memory
+      url: /fields/:fieldId/memories
+    - title: Query Memories
+      url: /fields/:fieldId/memories/query
+    - title: Chat Completions
+      url: /v1/chat/completions
