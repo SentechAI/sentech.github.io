@@ -1,4 +1,4 @@
-# EMFDash API Documentation
+# Sentech API Documentation
 
 ## Authentication
 All API endpoints require authentication via an API key. Pass the API key in the `Authorization` header as follows:
