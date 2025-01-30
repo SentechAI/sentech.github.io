@@ -17,5 +17,9 @@ nav:
     url: "/create-memory"
   - title: "Query Memory"
     url: "/query-memory"
-  - title: "Inference"
-    url: "/inference"
+  - title: "Chat Completion"
+    url: "/chat-completions"
+  - title: "Supported Models"
+    url: "/supported-models"
+
+    
