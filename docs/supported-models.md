@@ -5,7 +5,7 @@ nav_order: 6
 
 # Get Supported Models
 
-### **GET** `https://api.sentechl.ai/supported-models`
+### **GET** `https://api.sentech.ai/supported-models`
 
 #### **Description**
 Retrieves a list of supported AI models.
