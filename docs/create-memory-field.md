@@ -20,3 +20,4 @@ Creates a new memory field for storing AI-generated memories.
 {
   "name": "New Memory Field"
 }
+```
