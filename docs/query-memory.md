@@ -5,7 +5,7 @@ nav_order: 4
 
 # Query Memories
 
-### **POST** `https://api.sentechl.ai/fields/:fieldId/memories/query`
+### **POST** `https://api.sentech.ai/fields/:fieldId/memories/query`
 
 #### **Description**
 Queries stored memories within a specific memory field.
