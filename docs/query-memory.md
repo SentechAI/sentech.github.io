@@ -1,7 +1,6 @@
 ---
 title: Query Memories
 nav_order: 4
-parent: API Endpoints
 ---
 
 # Query Memories
