@@ -11,6 +11,8 @@ search_enabled: true
 nav:
   - title: "API Docs"
     url: "/"
+  - title: "Create Memory"
+    url: "//create-memory"
   - title: "API Endpoints"
     children:
       - title: "Create Memory"
