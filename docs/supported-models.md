@@ -18,3 +18,4 @@ Retrieves a list of supported AI models.
     { "model_name": "hermes/Hermes-3-70B-Instruct", "price": 0.6 }
   ]
 }
+```
