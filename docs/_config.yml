@@ -1,5 +1,5 @@
 title: API Docs
-description: API Docs
+description: API Documentation for Sentech
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-remote-theme
@@ -7,22 +7,19 @@ plugins:
 # Enable search
 search_enabled: true
 
-# Define sidebar navigation
-nav_order: 1
-
-# Sidebar structure
+# Navigation structure
 nav:
-  - title: API Docs
-    url: /
-  - title: API Endpoints
+  - title: "API Docs"
+    url: "/"
+  - title: "API Endpoints"
     children:
-      - title: Create Memory
-        url: /create-memory
-      - title: Query Memories
-        url: /query-memory
-      - title: Chat Completions
-        url: /chat-completions
-      - title: Supported Models
-        url: /supported-models
-      - title: Create Memory Field
-        url: /create-memory-field
+      - title: "Create Memory"
+        url: "/create-memory"
+      - title: "Query Memories"
+        url: "/query-memory"
+      - title: "Chat Completions"
+        url: "/chat-completions"
+      - title: "Supported Models"
+        url: "/supported-models"
+      - title: "Create Memory Field"
+        url: "/create-memory-field"
