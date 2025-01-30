@@ -5,7 +5,7 @@ nav_order: 3
 
 # Create a Memory
 
-### **POST** `/fields/:fieldId/memories`
+### **POST** `https://api.sentechl.ai/fields/:fieldId/memories`
 
 #### **Description**
 
