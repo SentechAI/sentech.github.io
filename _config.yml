@@ -1,6 +1,9 @@
 title: EMFDash API
 description: API Documentation for EMFDash
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-remote-theme
+
 
 # Enable the navigation sidebar
 just_the_docs:
