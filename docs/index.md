@@ -1,3 +1,8 @@
+---
+title: Sentech API Documentation
+nav_order: 1
+---
+
 # Sentech API Documentation
 
 ## Authentication
