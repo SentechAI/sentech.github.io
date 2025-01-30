@@ -45,5 +45,3 @@ Queries stored memories within a specific memory field.
 - 404: User not found
 - 500: Internal server error
 ```
-
----
