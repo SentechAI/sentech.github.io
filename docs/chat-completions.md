@@ -1,7 +1,6 @@
 ---
 title: AI Chat Completion
 nav_order: 5
-parent: API Endpoints
 ---
 
 # AI Chat Completion
