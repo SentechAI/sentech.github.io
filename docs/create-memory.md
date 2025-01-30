@@ -1,7 +1,6 @@
 ---
 title: Create Memory
 nav_order: 2
-parent: API Endpoints
 ---
 
 # Create a Memory
