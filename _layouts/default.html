@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <nav>
+                <h2>Navigation</h2>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/fields/:fieldId/memories">Create Memory</a></li>
+                    <li><a href="/fields/:fieldId/memories/query">Query Memories</a></li>
+                    <li><a href="/v1/chat/completions">Chat Completions</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>
