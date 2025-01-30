@@ -1,5 +1,5 @@
-title: EMFDash API
-description: API Documentation for EMFDash
+title: API Documentation
+description: API Documentation
 remote_theme: pmarsceill/just-the-docs
 plugins:
   - jekyll-remote-theme
