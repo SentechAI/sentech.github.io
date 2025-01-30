@@ -1,0 +1,6 @@
+title: Sentech API
+description: API Documentation for Sentech API
+theme: minima
+show_excerpts: true
+header_pages:
+  - index.md
