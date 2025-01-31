@@ -1,20 +1,19 @@
 ---
-title: Create Memory
+title: Add Memory
 nav_order: 3
 ---
 
-# Create a Memory
+# Add a Memory
 
 ### **POST** `https://api.sentech.ai/fields/:fieldId/memories`
 
 #### **Description**
-
 Adds a new memory to a specified memory field.
 
 #### **Headers**
 
 | Key           | Type   | Required | Description                |
-|---------------|--------|----------|----------------------------|
+|--------------|--------|----------|----------------------------|
 | Authorization | String | Yes      | API key for authentication |
 
 #### **Path Parameters**
@@ -27,7 +26,12 @@ Adds a new memory to a specified memory field.
 
 ```json
 {
-  "content": "Your memory content here"
+  "content": "Your memory content here",
+  "timestamp": 1711122334,
+  "relevance": 1.0,
+  "decay_rate": 0.01,
+  "salience": 1.0,
+  "connections": ["memory-uuid-1", "memory-uuid-2"]
 }
 ```
 
@@ -39,29 +43,6 @@ Adds a new memory to a specified memory field.
   "memory_id": "xyz789"
 }
 ```
-
-### **cURL Example**
-```sh
-curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories" \
-     -H "Authorization: Bearer YOUR_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-          "content": "Your memory content here"
-         }'
-```
-
-#### **Implementation Details**
-- The API requires authentication via an API key in the `Authorization` header.
-- The request body must include a `content` field, otherwise, a `400 Bad Request` response is returned.
-
-### **Rate Limiting**
-- Users have different query and memory limits based on their subscription tiers:
-  - **Free:** 1,000 queries, 500 memories
-  - **Basic:** 10,000 queries, 5,000 memories
-  - **Standard:** 10,000 queries, 5,000 memories
-  - **Premium:** 50,000 queries, 50,000 memories
-- If the user exceeds their query or memory limit, a `429 Too Many Requests` response is returned with a message suggesting an upgrade.
-
 
 ##### **Error Responses**
 **400 Bad Request**
@@ -93,6 +74,18 @@ curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories" \
 }
 ```
 
-For further information, contact support at `support@sentech.ai`.
-
+### **cURL Example**
+```sh
+curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories" \
+     -H "Authorization: Bearer YOUR_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d '{
+          "content": "Your memory content here",
+          "timestamp": 1711122334,
+          "relevance": 1.0,
+          "decay_rate": 0.01,
+          "salience": 1.0,
+          "connections": ["memory-uuid-1", "memory-uuid-2"]
+         }'
+```
 
