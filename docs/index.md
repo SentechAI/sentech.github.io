@@ -73,43 +73,20 @@ Designed for startups and enterprises, Sentech offers pricing plans based on acc
 
 ---
 
-## **Memory Field Pricing**
+---
+title: Memory Field Pricing
+nav_order: 7
+---
 
-### **Free Tier** *(Balance: $0 - $5.00)*
-- **One Free Memory Field**
-- **Memory Field Creation:** FREE
-- **Memory Usage:** $0.01 per memory addition
-- **Query Usage:** $0.01 per query
-- **Additional Field:** $3.00 per month
-- **Memories Storage:** $0.025 per memory per month
-- **Storage:** $3/GB per month
+# Memory Field Pricing
 
-### **Basic Tier** *(Balance: $5.00 - $10.00)*
-- **One Free Memory Field**
-- **Memory Field Creation:** FREE
-- **Memory Usage:** $0.005 per memory addition
-- **Query Usage:** $0.005 per query
-- **Additional Field:** $2.00 per month
-- **Memories Storage:** $0.02 per memory per month
-- **Storage:** $2/GB per month
+| Tier         | Balance Requirement | Memory Usage | Query Usage | Additional Field | Memory Storage | Storage Cost |
+|-------------|--------------------|-------------|---------------|-------------|-------------|-----------------|----------------|--------------|
+| **Free**    | $0 - $5.00         | $0.01 per memory  | $0.01 per query  | $3.00 per month | $0.025 per memory per month | $3/GB per month |
+| **Basic**   | $5.00 - $10.00     | $0.005 per memory | $0.005 per query | $2.00 per month | $0.02 per memory per month  | $2/GB per month |
+| **Standard**| $10.00 - $100.00   | $0.001 per memory | $0.001 per query | $1.00 per month | $0.005 per memory per month | $1.5/GB per month |
+| **Premium** | $100+              | $0.00075 per memory | $0.00075 per query | $1.00 per month | $0.001 per memory per month | $1/GB per month |
 
-### **Standard Tier** *(Balance: $10.00 - $100.00)*
-- **One Free Memory Field**
-- **Memory Field Creation:** FREE
-- **Memory Usage:** $0.001 per memory addition
-- **Query Usage:** $0.001 per query
-- **Additional Field:** $1.00 per month
-- **Memories Storage:** $0.005 per memory per month
-- **Storage:** $1.5/GB per month
-
-### **Premium Tier** *(Balance: $100+)*
-- **One Free Memory Field**
-- **Memory Field Creation:** FREE
-- **Memory Usage:** $0.00075 per memory addition
-- **Query Usage:** $0.00075 per query
-- **Additional Field:** $1.00 per month
-- **Memories Storage:** $0.001 per memory per month
-- **Storage:** $1/GB per month
 
 ---
 
