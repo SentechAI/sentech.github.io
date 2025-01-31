@@ -76,18 +76,8 @@ curl -X POST "https://api.sentech.ai/fields/create-memory-field" \
 #### **Implementation Details**
 - The API requires authentication via an API key in the `Authorization` header.
 - The request body must include a `name` field, otherwise, a `400 Bad Request` response is returned.
-- The rate-limiting middleware checks the user’s query usage against their subscription tier and enforces limits.
-- The API interacts with an external service (`EMF_API_URL`) to create the memory field and stores the result in the database.
-
-#### **Backend Code Summary**
-- The endpoint verifies the API key and applies rate limits.
-- The user is validated before proceeding.
-- The system makes a request to an external API to create a memory field.
-- The memory field is saved in the database with an initial `memory_count` of `0`.
-- Errors are handled gracefully, returning appropriate HTTP status codes and messages.
 
 ### **Rate Limiting**
-- The rate limit is determined by the user’s subscription tier.
 - If the user exceeds their query limit, a `429 Too Many Requests` response is returned with a message suggesting an upgrade.
 
 For further information, contact support at `support@sentech.ai`.
