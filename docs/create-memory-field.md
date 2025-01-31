@@ -17,6 +17,16 @@ Creates a new memory field for storing AI-generated memories.
 |--------------|--------|----------|----------------------------|
 | Authorization | String | Yes      | API key for authentication |
 
+### **cURL Example**
+```sh
+curl -X POST "https://api.sentech.ai/fields/create-memory-field" \
+     -H "Authorization: Bearer YOUR_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d '{
+          "name": "New Memory Field"
+         }'
+```
+
 #### **Request Body**
 ```json
 {
@@ -61,16 +71,6 @@ Creates a new memory field for storing AI-generated memories.
   "message": "Internal server error",
   "error": "Error details"
 }
-```
-
-### **cURL Example**
-```sh
-curl -X POST "https://api.sentech.ai/fields/create-memory-field" \
-     -H "Authorization: Bearer YOUR_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-          "name": "New Memory Field"
-         }'
 ```
 
 #### **Implementation Details**
