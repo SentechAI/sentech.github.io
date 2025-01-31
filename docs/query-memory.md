@@ -22,6 +22,18 @@ Retrieves relevant memories from a specified memory field using AI-powered searc
 |-----------|--------|----------|------------------------------|
 | fieldId   | String | Yes      | Unique ID of the memory field|
 
+### **cURL Example**
+```sh
+curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories/query" \
+     -H "Authorization: Bearer YOUR_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d '{
+          "query": "What memories do I have about AI?",
+          "top_k": 10,
+          "depth_k": 3
+         }'
+```
+
 #### **Request Body**
 
 ```json
@@ -85,16 +97,3 @@ Retrieves relevant memories from a specified memory field using AI-powered searc
   "error": "Error details"
 }
 ```
-
-### **cURL Example**
-```sh
-curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories/query" \
-     -H "Authorization: Bearer YOUR_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-          "query": "What memories do I have about AI?",
-          "top_k": 10,
-          "depth_k": 3
-         }'
-```
-
