@@ -22,6 +22,21 @@ Adds a new memory to a specified memory field.
 |-----------|--------|----------|------------------------------|
 | fieldId   | String | Yes      | Unique ID of the memory field|
 
+### **cURL Example**
+```sh
+curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories" \
+     -H "Authorization: Bearer YOUR_API_KEY" \
+     -H "Content-Type: application/json" \
+     -d '{
+          "content": "Your memory content here",
+          "timestamp": 1711122334,
+          "relevance": 1.0,
+          "decay_rate": 0.01,
+          "salience": 1.0,
+          "connections": ["memory-uuid-1", "memory-uuid-2"]
+         }'
+```
+
 #### **Request Body**
 
 ```json
@@ -73,19 +88,3 @@ Adds a new memory to a specified memory field.
   "error": "Error details"
 }
 ```
-
-### **cURL Example**
-```sh
-curl -X POST "https://api.sentech.ai/fields/{fieldId}/memories" \
-     -H "Authorization: Bearer YOUR_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-          "content": "Your memory content here",
-          "timestamp": 1711122334,
-          "relevance": 1.0,
-          "decay_rate": 0.01,
-          "salience": 1.0,
-          "connections": ["memory-uuid-1", "memory-uuid-2"]
-         }'
-```
-
