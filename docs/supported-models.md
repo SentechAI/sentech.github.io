@@ -10,6 +10,11 @@ nav_order: 6
 #### **Description**
 Retrieves a list of supported AI models available for use.
 
+### **cURL Example**
+```sh
+curl -X GET "https://api.sentech.ai/supported-models"
+```
+
 #### **Response**
 ##### **Success Response**
 ```json
@@ -36,9 +41,3 @@ Retrieves a list of supported AI models available for use.
   "error": "Error details"
 }
 ```
-
-### **cURL Example**
-```sh
-curl -X GET "https://api.sentech.ai/supported-models"
-```
-
