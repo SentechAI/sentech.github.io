@@ -13,7 +13,7 @@ nav:
     url: "https://sentech.ai"
   - title: "API Docs"
     url: "/"
-  - title: "Create MField"
+  - title: "Create Field"
     url: "/create-memory-field"
   - title: "Create Memory"
     url: "/create-memory"
