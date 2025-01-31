@@ -9,6 +9,8 @@ search_enabled: true
 
 # Navigation structure
 nav:
+  - title: "Main"
+    url: "https://sentech.ai"
   - title: "API Docs"
     url: "/"
   - title: "Create MField"
