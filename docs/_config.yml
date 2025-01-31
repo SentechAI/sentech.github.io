@@ -14,15 +14,15 @@ nav_external_links:
     hide_icon: false # set to true to hide the external link icon - defaults to false
     opens_in_new_tab: false # set to true to open this link in a new tab - defaults to false
 nav:
-  - title: "API Docs"
+  - title: "Sentech API Documentation"
     url: "/"
-  - title: "Create Field"
+  - title: "Create Memory Field"
     url: "/create-memory-field"
-  - title: "Create Memory"
+  - title: "Add Memory"
     url: "/create-memory"
-  - title: "Query Memory"
+  - title: "Query Memories"
     url: "/query-memory"
-  - title: "Chat Completion"
+  - title: "Chat Completions"
     url: "/chat-completions"
   - title: "Supported Models"
     url: "/supported-models"
