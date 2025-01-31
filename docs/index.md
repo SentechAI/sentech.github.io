@@ -52,31 +52,10 @@ To ensure fair usage, the API enforces rate limits based on subscription tiers:
 
 If you exceed your plan's limit, consider upgrading your subscription.
 
----
-title: Pricing Plans
-nav_order: 6
----
-
 # Pricing Plans
 
 ## **Flexible and Scalable Pricing**
 Designed for startups and enterprises, Sentech offers pricing plans based on account balance. To maintain a tier, you must sustain the required minimum balance.
-
-### **Plan Overview**
-
-| Tier/Plan  | Memory Field Queries per Month | Memories Added per Month |
-|------------|------------------------------|-------------------------|
-| Free       | 1,000                        | 500                     |
-| Basic      | 10,000                        | 5,000                   |
-| Standard   | 10,000                        | 5,000                   |
-| Premium    | 50,000                        | 50,000                  |
-
----
-
----
-title: Memory Field Pricing
-nav_order: 7
----
 
 # Memory Field Pricing
 
@@ -87,6 +66,14 @@ nav_order: 7
 | **Standard**| $10.00 - $100.00   | $0.001 per memory | $0.001 per query | $1.00 per month | $0.005 per memory per month | $1.5/GB per month |
 | **Premium** | $100+              | $0.00075 per memory | $0.00075 per query | $1.00 per month | $0.001 per memory per month | $1/GB per month |
 
+### **Plan Overview**
+
+| Tier/Plan  | Memory Field Queries per Month | Memories Added per Month |
+|------------|------------------------------|-------------------------|
+| Free       | 1,000                        | 500                     |
+| Basic      | 10,000                        | 5,000                   |
+| Standard   | 10,000                        | 5,000                   |
+| Premium    | 50,000                        | 50,000                  |
 
 ---
 
